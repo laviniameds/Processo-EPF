@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-u5Ez5N-7fouTnbvlHgrWyg" name="identificacao_de_feature,_77K98PsPEei0J5mg9rEWvA" guid="-u5Ez5N-7fouTnbvlHgrWyg">
+  <sections xmi:id="_ZZ-lUPsQEei0J5mg9rEWvA" name="Identificar tipo da feature" guid="_ZZ-lUPsQEei0J5mg9rEWvA">
+    <sectionDescription>Identificar tipo da feature: 
+        &lt;div>
+            - Autorização&lt;br />
+             
+            &lt;div>
+                - Validação
+            &lt;/div>
+            &lt;div>
+                - Fluxo Principal
+            &lt;/div>
+            &lt;div>
+                &lt;br />
+            &lt;/div>
+        &lt;/div></sectionDescription>
+  </sections>
+  <sections xmi:id="_h54J0PsQEei0J5mg9rEWvA" name="Identificar contexto inicial da feature" guid="_h54J0PsQEei0J5mg9rEWvA">
+    <sectionDescription>Identificar se existe a necessidade (ou não) de popular o banco de dados, previamente, com o contexto da feature</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>
