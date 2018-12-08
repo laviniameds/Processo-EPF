@@ -4,8 +4,9 @@
     <resourceDescriptors xmi:id="_ZzV2oPsHEei0J5mg9rEWvA" id="-USYYd-jyyUngGLc-uj0BMA" uri="tasks/instalar_ferramentas_de_teste.xmi"/>
     <resourceDescriptors xmi:id="_at5rUPsQEei0J5mg9rEWvA" id="-u5Ez5N-7fouTnbvlHgrWyg" uri="tasks/identificacao_de_feature.xmi"/>
     <resourceDescriptors xmi:id="_9_QOMPsSEei0J5mg9rEWvA" id="-dNe2hLlZbZcHi4HPJbpTsA" uri="tasks/identificacao_de_cenario.xmi"/>
+    <resourceDescriptors xmi:id="_P3JGsPscEei0J5mg9rEWvA" id="-j75ucv91ZjiYq4L-A25L7w" uri="tasks/identificacao_de_papeis.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="__3ewoPpNEei0J5mg9rEWvA" name="testes_suap_enap" guid="__3ewoPpNEei0J5mg9rEWvA" presentationName="Testes SUAP ENAP" briefDescription="Modelo do Processo de criação de testes funcionais para o projeto SUAP/ENAP" changeDate="2018-12-07T15:29:37.041-0300">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="__3ewoPpNEei0J5mg9rEWvA" name="desenvolvimento_de_testes" guid="__3ewoPpNEei0J5mg9rEWvA" presentationName="Testes SUAP ENAP" briefDescription="Modelo do Processo de criação de testes funcionais para o projeto SUAP/ENAP" changeDate="2018-12-07T15:29:37.041-0300">
     <methodElementProperty xmi:id="__3ohoPpNEei0J5mg9rEWvA" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_DTFU0PpOEei0J5mg9rEWvA" name="me_edited" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__3fXsPpNEei0J5mg9rEWvA" name="Content" guid="__3fXsPpNEei0J5mg9rEWvA">
@@ -40,13 +41,13 @@
             <methodElementProperty xmi:id="_jSs3kPsIEei0J5mg9rEWvA" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_tsTEcPsPEei0J5mg9rEWvA" name="construcao_de_feature" guid="_tsTEcPsPEei0J5mg9rEWvA" presentationName="Construção de Feature">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_tsTEcPsPEei0J5mg9rEWvA" name="concepcao_da_feature" guid="_tsTEcPsPEei0J5mg9rEWvA" presentationName="Concepção da Feature">
           <methodElementProperty xmi:id="_tsVgsPsPEei0J5mg9rEWvA" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_wAhJ0PsPEei0J5mg9rEWvA" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_1GI_0PsPEei0J5mg9rEWvA" name="desenvolvedor_de_testes" guid="_1GI_0PsPEei0J5mg9rEWvA" presentationName="Desenvolvedor de Testes">
             <methodElementProperty xmi:id="_1HayMPsPEei0J5mg9rEWvA" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_77K98PsPEei0J5mg9rEWvA" name="identificacao_de_feature" guid="_77K98PsPEei0J5mg9rEWvA" presentationName="Identificação de Feature" briefDescription="Identificação do Tipo e Contexto da Feature" performedBy="_1GI_0PsPEei0J5mg9rEWvA" mandatoryInput="_LYAfYPsQEei0J5mg9rEWvA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_77K98PsPEei0J5mg9rEWvA" name="identificacao_de_feature" guid="_77K98PsPEei0J5mg9rEWvA" presentationName="Identificação de Funcionalidade" briefDescription="Identificação do Tipo e Contexto da Funcionalidade" performedBy="_1GI_0PsPEei0J5mg9rEWvA" mandatoryInput="_LYAfYPsQEei0J5mg9rEWvA">
             <methodElementProperty xmi:id="_97pA4PsPEei0J5mg9rEWvA" name="me_edited" value="true"/>
             <presentation xmi:id="-u5Ez5N-7fouTnbvlHgrWyg" href="uma://-u5Ez5N-7fouTnbvlHgrWyg#-u5Ez5N-7fouTnbvlHgrWyg"/>
           </contentElements>
@@ -59,7 +60,54 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-fCFAPsTEei0J5mg9rEWvA" name="identificacao_de_papeis" guid="_-fCFAPsTEei0J5mg9rEWvA" presentationName="Identificação de Papéis" briefDescription="Identificação dos Papéis da Feature" performedBy="_1GI_0PsPEei0J5mg9rEWvA" mandatoryInput="_LYAfYPsQEei0J5mg9rEWvA" output="_LYAfYPsQEei0J5mg9rEWvA">
             <methodElementProperty xmi:id="_Bxvy8PsUEei0J5mg9rEWvA" name="me_edited" value="true"/>
+            <presentation xmi:id="-j75ucv91ZjiYq4L-A25L7w" href="uma://-j75ucv91ZjiYq4L-A25L7w#-j75ucv91ZjiYq4L-A25L7w"/>
           </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BnKIAPseEei0J5mg9rEWvA" name="construcao_da_funcionalidade" guid="_BnKIAPseEei0J5mg9rEWvA" presentationName="Construção da Funcionalidade" briefDescription="Construção da funcionalidade para a feature">
+          <methodElementProperty xmi:id="_BnKIAfseEei0J5mg9rEWvA" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_DeuGkPseEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_OfzOYPseEei0J5mg9rEWvA" name="desenvolvedor_de_testes" guid="_OfzOYPseEei0J5mg9rEWvA" presentationName="Desenvolvedor de Testes">
+            <methodElementProperty xmi:id="_QTARYPseEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_WB0OUPseEei0J5mg9rEWvA" name="implementacao_da_funcionalidade" guid="_WB0OUPseEei0J5mg9rEWvA" presentationName="Implementação da funcionalidade" briefDescription="Implementação da funcionalidade" output="_xoCG8PsfEei0J5mg9rEWvA">
+            <methodElementProperty xmi:id="_gVVskPseEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_xoCG8PsfEei0J5mg9rEWvA" name="funcionalidade" guid="_xoCG8PsfEei0J5mg9rEWvA" presentationName="Funcionalidade" briefDescription="Funcionaliade">
+            <methodElementProperty xmi:id="_zRIywPsfEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3rQ_QPsgEei0J5mg9rEWvA" name="implementao_de_cenarios" guid="_3rQ_QPsgEei0J5mg9rEWvA" presentationName="Implementação de Cenários" briefDescription="Implementação de Cenários" performedBy="_1GI_0PsPEei0J5mg9rEWvA">
+            <methodElementProperty xmi:id="_6mW3YPsgEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_T3g1wPslEei0J5mg9rEWvA" name="implementao_da_funcionalidade_na_feature" guid="_T3g1wPslEei0J5mg9rEWvA" presentationName="Implementação da funcionalidade na feature" briefDescription="Implementação da funcionalidade na feature" mandatoryInput="_LYAfYPsQEei0J5mg9rEWvA" output="_LYAfYPsQEei0J5mg9rEWvA">
+            <methodElementProperty xmi:id="_VrCB0PslEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LEz78PsjEei0J5mg9rEWvA" name="teste_da_feature" guid="_LEz78PsjEei0J5mg9rEWvA" presentationName="Teste da Feature">
+          <methodElementProperty xmi:id="_LEz78fsjEei0J5mg9rEWvA" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_MR9rkPsjEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_R5hJ8PsjEei0J5mg9rEWvA" name="utilizar_ferramenta_automatizada" guid="_R5hJ8PsjEei0J5mg9rEWvA" presentationName="Utilizar ferramenta automatizada" briefDescription="Utilizar ferramenta automatizada" mandatoryInput="_LYAfYPsQEei0J5mg9rEWvA">
+            <methodElementProperty xmi:id="_Wb5wAPsjEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XrS7UPsjEei0J5mg9rEWvA" name="identificar_erros" guid="_XrS7UPsjEei0J5mg9rEWvA" presentationName="Identificar Erros" briefDescription="Identificar Erros">
+            <methodElementProperty xmi:id="_ZxSXcPsjEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bX9aUPsjEei0J5mg9rEWvA" name="consertar_erros" guid="_bX9aUPsjEei0J5mg9rEWvA" presentationName="Consertar Erros">
+            <methodElementProperty xmi:id="_dFn2APsjEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_fFeN4PsjEei0J5mg9rEWvA" name="relatrio_do_teste" guid="_fFeN4PsjEei0J5mg9rEWvA" presentationName="Relatório do Teste">
+          <methodElementProperty xmi:id="_fFeN4fsjEei0J5mg9rEWvA" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_h9x3wPsjEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_qC_ZcPslEei0J5mg9rEWvA" name="desenvolvedor_de_testes" guid="_qC_ZcPslEei0J5mg9rEWvA" presentationName="Desenvolvedor de Testes">
+            <methodElementProperty xmi:id="_qEP9sPslEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_M9U1YPsmEei0J5mg9rEWvA" name="coordenador_dos_testes" guid="_M9U1YPsmEei0J5mg9rEWvA" presentationName="Coordenador dos Testes" briefDescription="Coordenador de Testes">
+            <methodElementProperty xmi:id="_O9NpgPsmEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_f9rrcPsnEei0J5mg9rEWvA" name="revisar_feature" guid="_f9rrcPsnEei0J5mg9rEWvA" presentationName="Revisar Feature">
+            <methodElementProperty xmi:id="_iiyFcPsnEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_o1hO0PsnEei0J5mg9rEWvA" name="new_task" guid="_o1hO0PsnEei0J5mg9rEWvA" presentationName="New Task"/>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__3f-wfpNEei0J5mg9rEWvA" name="CapabilityPatterns" guid="__3f-wfpNEei0J5mg9rEWvA"/>
