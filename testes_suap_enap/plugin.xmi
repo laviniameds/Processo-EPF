@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__3mscPpNEei0J5mg9rEWvA" guid="__3mscPpNEei0J5mg9rEWvA"/>
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__3mscPpNEei0J5mg9rEWvA" guid="__3mscPpNEei0J5mg9rEWvA">
+    <resourceDescriptors xmi:id="_ZzV2oPsHEei0J5mg9rEWvA" id="-USYYd-jyyUngGLc-uj0BMA" uri="tasks/instalar_ferramentas_de_teste.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="__3ewoPpNEei0J5mg9rEWvA" name="testes_suap_enap" guid="__3ewoPpNEei0J5mg9rEWvA" presentationName="Testes SUAP ENAP" briefDescription="Modelo do Processo de criação de testes funcionais para o projeto SUAP/ENAP" changeDate="2018-12-07T15:29:37.041-0300">
     <methodElementProperty xmi:id="__3ohoPpNEei0J5mg9rEWvA" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_DTFU0PpOEei0J5mg9rEWvA" name="me_edited" value="true"/>
@@ -18,7 +20,22 @@
           </childPackages>
         </childPackages>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__3f-wPpNEei0J5mg9rEWvA" name="CoreContent" guid="__3f-wPpNEei0J5mg9rEWvA"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__3f-wPpNEei0J5mg9rEWvA" name="CoreContent" guid="__3f-wPpNEei0J5mg9rEWvA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qr4qsPpPEei0J5mg9rEWvA" name="preparacao_do_ambiente" guid="_qr4qsPpPEei0J5mg9rEWvA" presentationName="Preparação do Ambiente">
+          <methodElementProperty xmi:id="_qr5RwPpPEei0J5mg9rEWvA" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_s9hWIPpPEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_vH4nwPsGEei0J5mg9rEWvA" name="desenvolvedor_de_testes" guid="_vH4nwPsGEei0J5mg9rEWvA" presentationName="Desenvolvedor de Testes">
+            <methodElementProperty xmi:id="_ymCwsPsGEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_04WKgPsGEei0J5mg9rEWvA" name="instalar_ferramentas_de_teste" guid="_04WKgPsGEei0J5mg9rEWvA" presentationName="Instalar Ferramentas de Teste">
+            <methodElementProperty xmi:id="_5wch4PsGEei0J5mg9rEWvA" name="me_edited" value="true"/>
+            <presentation xmi:id="-USYYd-jyyUngGLc-uj0BMA" href="uma://-USYYd-jyyUngGLc-uj0BMA#-USYYd-jyyUngGLc-uj0BMA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_krg6EPsHEei0J5mg9rEWvA" name="ambiente_preparado_para_o_desenvolvimento" guid="_krg6EPsHEei0J5mg9rEWvA" presentationName="Ambiente preparado para o desenvolvimento" briefDescription="Ambiente preparado e disponível para o desenvolvimento dos testes">
+            <methodElementProperty xmi:id="_mXFrEPsHEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__3f-wfpNEei0J5mg9rEWvA" name="CapabilityPatterns" guid="__3f-wfpNEei0J5mg9rEWvA"/>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__3f-wvpNEei0J5mg9rEWvA" name="DeliveryProcesses" guid="__3f-wvpNEei0J5mg9rEWvA"/>
