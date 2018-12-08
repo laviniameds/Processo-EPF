@@ -3,6 +3,7 @@
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__3mscPpNEei0J5mg9rEWvA" guid="__3mscPpNEei0J5mg9rEWvA">
     <resourceDescriptors xmi:id="_ZzV2oPsHEei0J5mg9rEWvA" id="-USYYd-jyyUngGLc-uj0BMA" uri="tasks/instalar_ferramentas_de_teste.xmi"/>
     <resourceDescriptors xmi:id="_at5rUPsQEei0J5mg9rEWvA" id="-u5Ez5N-7fouTnbvlHgrWyg" uri="tasks/identificacao_de_feature.xmi"/>
+    <resourceDescriptors xmi:id="_9_QOMPsSEei0J5mg9rEWvA" id="-dNe2hLlZbZcHi4HPJbpTsA" uri="tasks/identificacao_de_cenario.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="__3ewoPpNEei0J5mg9rEWvA" name="testes_suap_enap" guid="__3ewoPpNEei0J5mg9rEWvA" presentationName="Testes SUAP ENAP" briefDescription="Modelo do Processo de criação de testes funcionais para o projeto SUAP/ENAP" changeDate="2018-12-07T15:29:37.041-0300">
     <methodElementProperty xmi:id="__3ohoPpNEei0J5mg9rEWvA" name="plugin_synFree" value="true"/>
@@ -52,8 +53,12 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_LYAfYPsQEei0J5mg9rEWvA" name="feature_de_teste" guid="_LYAfYPsQEei0J5mg9rEWvA" presentationName="Feature de Teste" briefDescription="Feature de Teste">
             <methodElementProperty xmi:id="_OEf60PsQEei0J5mg9rEWvA" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_h0SpwPsREei0J5mg9rEWvA" name="identificacao_do_cenario" guid="_h0SpwPsREei0J5mg9rEWvA" presentationName="Identificação do Cenário" briefDescription="Identificação do Cenário da Feature" performedBy="_vH4nwPsGEei0J5mg9rEWvA" mandatoryInput="_LYAfYPsQEei0J5mg9rEWvA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_h0SpwPsREei0J5mg9rEWvA" name="identificacao_de_cenario" guid="_h0SpwPsREei0J5mg9rEWvA" presentationName="Identificação de Cenário" briefDescription="Identificação de Cenários da Feature" performedBy="_vH4nwPsGEei0J5mg9rEWvA" mandatoryInput="_LYAfYPsQEei0J5mg9rEWvA" output="_LYAfYPsQEei0J5mg9rEWvA">
             <methodElementProperty xmi:id="_ji4SgPsREei0J5mg9rEWvA" name="me_edited" value="true"/>
+            <presentation xmi:id="-dNe2hLlZbZcHi4HPJbpTsA" href="uma://-dNe2hLlZbZcHi4HPJbpTsA#-dNe2hLlZbZcHi4HPJbpTsA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-fCFAPsTEei0J5mg9rEWvA" name="identificacao_de_papeis" guid="_-fCFAPsTEei0J5mg9rEWvA" presentationName="Identificação de Papéis" briefDescription="Identificação dos Papéis da Feature" performedBy="_1GI_0PsPEei0J5mg9rEWvA" mandatoryInput="_LYAfYPsQEei0J5mg9rEWvA" output="_LYAfYPsQEei0J5mg9rEWvA">
+            <methodElementProperty xmi:id="_Bxvy8PsUEei0J5mg9rEWvA" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>

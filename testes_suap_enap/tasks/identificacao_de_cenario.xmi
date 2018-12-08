@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-dNe2hLlZbZcHi4HPJbpTsA" name="identificacao_de_cenario,_h0SpwPsREei0J5mg9rEWvA" guid="-dNe2hLlZbZcHi4HPJbpTsA">
+  <sections xmi:id="_9Nmu0PsSEei0J5mg9rEWvA" name="Identificar cenários da feature" guid="_9Nmu0PsSEei0J5mg9rEWvA">
+    <sectionDescription>Identificar cenários que a feature deve ter de acordo com o seu tipo e contexto</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>
