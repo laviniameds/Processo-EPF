@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__3mscPpNEei0J5mg9rEWvA" guid="__3mscPpNEei0J5mg9rEWvA">
+    <subManagers xmi:id="_a9sUoPstEei0J5mg9rEWvA" href="uma://_a7R50PstEei0J5mg9rEWvA#_a9sUoPstEei0J5mg9rEWvA"/>
     <resourceDescriptors xmi:id="_ZzV2oPsHEei0J5mg9rEWvA" id="-USYYd-jyyUngGLc-uj0BMA" uri="tasks/instalar_ferramentas_de_teste.xmi"/>
     <resourceDescriptors xmi:id="_at5rUPsQEei0J5mg9rEWvA" id="-u5Ez5N-7fouTnbvlHgrWyg" uri="tasks/identificacao_de_feature.xmi"/>
     <resourceDescriptors xmi:id="_9_QOMPsSEei0J5mg9rEWvA" id="-dNe2hLlZbZcHi4HPJbpTsA" uri="tasks/identificacao_de_cenario.xmi"/>
     <resourceDescriptors xmi:id="_P3JGsPscEei0J5mg9rEWvA" id="-j75ucv91ZjiYq4L-A25L7w" uri="tasks/identificacao_de_papeis.xmi"/>
+    <resourceDescriptors xmi:id="_a9pRUPstEei0J5mg9rEWvA" id="_a7R50PstEei0J5mg9rEWvA" uri="deliveryprocesses/Desenvolvimento%20de%20Testes/model.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="__3ewoPpNEei0J5mg9rEWvA" name="desenvolvimento_de_testes" guid="__3ewoPpNEei0J5mg9rEWvA" presentationName="Testes SUAP ENAP" briefDescription="Modelo do Processo de criação de testes funcionais para o projeto SUAP/ENAP" changeDate="2018-12-07T15:29:37.041-0300">
     <methodElementProperty xmi:id="__3ohoPpNEei0J5mg9rEWvA" name="plugin_synFree" value="true"/>
@@ -35,11 +37,8 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__3fXt_pNEei0J5mg9rEWvA" name="StandardCategories" guid="__3fXt_pNEei0J5mg9rEWvA"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__3fXuPpNEei0J5mg9rEWvA" name="CustomCategories" guid="__3fXuPpNEei0J5mg9rEWvA">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__3fXufpNEei0J5mg9rEWvA" name="Hidden" guid="__3fXufpNEei0J5mg9rEWvA">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="__3fXuvpNEei0J5mg9rEWvA" name="Custom Categories" guid="__3fXuvpNEei0J5mg9rEWvA" categorizedElements="_C-NHkPsrEei0J5mg9rEWvA"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="__3fXuvpNEei0J5mg9rEWvA" name="Custom Categories" guid="__3fXuvpNEei0J5mg9rEWvA" categorizedElements="_JnjaIPsrEei0J5mg9rEWvA _V5RqcPsrEei0J5mg9rEWvA _cvMZYPsrEei0J5mg9rEWvA _jpHSAPtAEei0J5mg9rEWvA"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_C-NHkPsrEei0J5mg9rEWvA" name="desenvolvimento_de_testes" guid="_C-NHkPsrEei0J5mg9rEWvA" presentationName="Desenvolvimento de Testes" categorizedElements="_JnjaIPsrEei0J5mg9rEWvA _V5RqcPsrEei0J5mg9rEWvA _cvMZYPsrEei0J5mg9rEWvA">
-            <methodElementProperty xmi:id="_FMm40PsrEei0J5mg9rEWvA" name="me_edited" value="true"/>
-          </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_JnjaIPsrEei0J5mg9rEWvA" name="atividades" guid="_JnjaIPsrEei0J5mg9rEWvA" presentationName="Atividades" categorizedElements="_8HAbsPspEei0J5mg9rEWvA _HdwRgPsqEei0J5mg9rEWvA _PtR3sPsqEei0J5mg9rEWvA _quh3gPsqEei0J5mg9rEWvA _01YywPsqEei0J5mg9rEWvA">
             <methodElementProperty xmi:id="_KpNrcPsrEei0J5mg9rEWvA" name="me_edited" value="true"/>
           </contentElements>
@@ -48,6 +47,11 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_cvMZYPsrEei0J5mg9rEWvA" name="artefatos" guid="_cvMZYPsrEei0J5mg9rEWvA" presentationName="Artefatos" briefDescription="Artefatos" categorizedElements="_htt2wPsIEei0J5mg9rEWvA _krg6EPsHEei0J5mg9rEWvA _xoCG8PsfEei0J5mg9rEWvA _LYAfYPsQEei0J5mg9rEWvA">
             <methodElementProperty xmi:id="_fjfF8PsrEei0J5mg9rEWvA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_jpHSAPtAEei0J5mg9rEWvA" name="desenvolvimento_de_testes" guid="_jpHSAPtAEei0J5mg9rEWvA" presentationName="Desenvolvimento de Testes" briefDescription="Desenvolvimento de Testes">
+            <methodElementProperty xmi:id="_lz8K0PtAEei0J5mg9rEWvA" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_u27OQPtAEei0J5mg9rEWvA" name="PUBLISH_CATEGORY" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_a7R50PstEei0J5mg9rEWvA#_a7R50fstEei0J5mg9rEWvA"/>
           </contentElements>
         </childPackages>
       </childPackages>
@@ -130,7 +134,9 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__3f-wfpNEei0J5mg9rEWvA" name="CapabilityPatterns" guid="__3f-wfpNEei0J5mg9rEWvA"/>
     </methodPackages>
-    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__3f-wvpNEei0J5mg9rEWvA" name="DeliveryProcesses" guid="__3f-wvpNEei0J5mg9rEWvA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__3f-wvpNEei0J5mg9rEWvA" name="DeliveryProcesses" guid="__3f-wvpNEei0J5mg9rEWvA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_a7R50PstEei0J5mg9rEWvA" href="uma://_a7R50PstEei0J5mg9rEWvA#_a7R50PstEei0J5mg9rEWvA"/>
+    </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__3f-w_pNEei0J5mg9rEWvA" name="ProcessContributions" guid="__3f-w_pNEei0J5mg9rEWvA"/>
   </org.eclipse.epf.uma:MethodPlugin>
 </xmi:XMI>
