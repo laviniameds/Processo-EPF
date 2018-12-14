@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-k-dI9-t44lNdnrIDpxqPEw" name="consertar_erros,_bX9aUPsjEei0J5mg9rEWvA" guid="-k-dI9-t44lNdnrIDpxqPEw">
-  <mainDescription>Consertar erros identificados manualmente ou aqueles gerados pela ferramenta automatizada</mainDescription>
-  <sections xmi:id="_wPyaUP9AEeiMPN1ir0IkYQ" name="Selecionar o erro da etapa anterior" guid="_wPyaUP9AEeiMPN1ir0IkYQ"/>
-  <sections xmi:id="_zyqrMP9AEeiMPN1ir0IkYQ" name="Consertar o erro" guid="_zyqrMP9AEeiMPN1ir0IkYQ"/>
-</org.eclipse.epf.uma:TaskDescription>

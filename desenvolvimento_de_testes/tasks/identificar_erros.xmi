@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ssr1-pLsICqHRrXaHj3uqA" name="identificar_erros,_XrS7UPsjEei0J5mg9rEWvA" guid="-ssr1-pLsICqHRrXaHj3uqA">
-  <mainDescription>Identificar erros de forma manual ou relatados pela própria ferramenta automatizada&amp;nbsp;</mainDescription>
-  <sections xmi:id="_pCOAYP9AEeiMPN1ir0IkYQ" name="Visualizar o log da ferramenta de testes" guid="_pCOAYP9AEeiMPN1ir0IkYQ"/>
-  <sections xmi:id="_rGGjsP9AEeiMPN1ir0IkYQ" name="Identificar erros" guid="_rGGjsP9AEeiMPN1ir0IkYQ"/>
-</org.eclipse.epf.uma:TaskDescription>
