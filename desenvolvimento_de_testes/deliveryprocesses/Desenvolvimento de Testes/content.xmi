@@ -1,4 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:DeliveryProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zxQXhjj6TwMDaFlTUrRt4g" name="Desenvolvimento de Testes,_a7R50fstEei0J5mg9rEWvA" guid="-zxQXhjj6TwMDaFlTUrRt4g">
-  <mainDescription>Preparação</mainDescription>
-</org.eclipse.epf.uma:DeliveryProcessDescription>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-zxQXhjj6TwMDaFlTUrRt4g" name="Desenvolvimento de Testes,_a7R50fstEei0J5mg9rEWvA" guid="-zxQXhjj6TwMDaFlTUrRt4g">
+    <mainDescription>Processo de desenvolvimento de testes de software baseados no projeto SUAP/ENAP</mainDescription>
+    <purpose>Tem o objetivo de orientar o desenvolvedor a testar um software</purpose>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lS7H0W0PErmIUiGmZi-SRQ" name="instalar_ferramentas_de_teste,_fjFNkPs8Eei0J5mg9rEWvA" guid="-lS7H0W0PErmIUiGmZi-SRQ">
+    <refinedDescription>Instalar ferramentas necessárias para o teste automatizado</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QWw_CPH85Y4cOKLoxc5N-w" name="ambiente_preparado_para_o_desenvolvimento,_fjFNlfs8Eei0J5mg9rEWvA" guid="-QWw_CPH85Y4cOKLoxc5N-w">
+    <refinedDescription>Ambiente de desenvolvimento de software preparado para receber os testes</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yRciYDKO1XpUhYEs62Aryw" name="identificacao_de_feature,_kBcPQvs8Eei0J5mg9rEWvA" guid="-yRciYDKO1XpUhYEs62Aryw">
+    <refinedDescription>Identificar o tipo e o contexto da feature, esse que será a funcionalidade a ser testada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-77FLBzY11-a8iJcR9Rsj7Q" name="implementacao_da_funcionalidade,_wPM6svs-Eei0J5mg9rEWvA" guid="-77FLBzY11-a8iJcR9Rsj7Q">
+    <refinedDescription>Implementar/escrever a sequência de passos para a funcionalidade a ser testada na feature</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uVi0B3XtnIb62iTAWYgUYA" name="funcionalidade,_wPNhwPs-Eei0J5mg9rEWvA" guid="-uVi0B3XtnIb62iTAWYgUYA">
+    <refinedDescription>Arquivo de teste completo contendo a funcionalidade a ser testada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rha9k6NiS9e54EGGjq0vAg" name="implementao_de_cenarios,_wPM6s_s-Eei0J5mg9rEWvA" guid="-rha9k6NiS9e54EGGjq0vAg">
+    <refinedDescription>Implementar/escrever a sequência de passos para cada cenário presente na feature a ser testada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HCJ8q7CQAu3_oRPoD8gUNA" name="identificar_erros,_wPOI0_s-Eei0J5mg9rEWvA" guid="-HCJ8q7CQAu3_oRPoD8gUNA">
+    <refinedDescription>Identificar erros de forma manual ou relatados pela própria ferramenta automatizada&amp;nbsp;</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BSMBGjANIRq3PUdrGaQo4g" name="utilizar_ferramenta_automatizada,_wPOI1Ps-Eei0J5mg9rEWvA" guid="-BSMBGjANIRq3PUdrGaQo4g">
+    <refinedDescription>Utilizar a ferramenta automatizada instalada e preparada na primeira fase para testas as features</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-MdUwalTjpizFg7yOWk_ZDw" name="feature_de_teste_completa,_2PUT0f9AEeiMPN1ir0IkYQ" guid="-MdUwalTjpizFg7yOWk_ZDw">
+    <refinedDescription>Arquivo de teste completo contendo a funcionalidade a ser testada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xfVmLwRtIDAvqXtj2wMfeA" name="feature_de_teste_finalizada,_4tRkAf9AEeiMPN1ir0IkYQ" guid="-xfVmLwRtIDAvqXtj2wMfeA">
+    <refinedDescription>Feature testada, adaptada e revisada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HTQ2wIm0esXdhMmHKtCmYg" name="consertar_erros,_wPOI0vs-Eei0J5mg9rEWvA" guid="-HTQ2wIm0esXdhMmHKtCmYg">
+    <refinedDescription>Consertar erros identificados manualmente ou aqueles gerados pela ferramenta automatizada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0btwVDkl2P_nysNG9aRu3w" name="documentar_erros,_08qvYvs-Eei0J5mg9rEWvA" guid="-0btwVDkl2P_nysNG9aRu3w">
+    <refinedDescription>Documentar erros para o relatório recebido pelo coordenador dos testes</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UcFoUSzvvlFNGrNXPg92Vg" name="revisar_feature,_08qvY_s-Eei0J5mg9rEWvA" guid="-UcFoUSzvvlFNGrNXPg92Vg">
+    <refinedDescription>Revisar relatório final e confirmar a eficácia e eficiência dos testes para finalizar o processo</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QxBnfEHI2w-tGHPdSnfzoQ" name="relatorio_final_de_testes,_UQa6gf9CEeiMPN1ir0IkYQ" guid="-QxBnfEHI2w-tGHPdSnfzoQ">
+    <refinedDescription>Relatório Final contendo todas as funcionalidades testadas, bem como seus logs e históricos de erros (consertados ou não)</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-A6E3eXyLamLsLkP8aXuTpg" name="feature_de_teste_finalizada,_UQdWwf9CEeiMPN1ir0IkYQ" guid="-A6E3eXyLamLsLkP8aXuTpg">
+    <refinedDescription>Feature testada, adaptada e revisada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pDpWrdpYcsn1OzMddDqPLw" name="instalar_ferramentas_de_teste,_wcHpUP9EEeiNf8InBZM3SA" guid="-pDpWrdpYcsn1OzMddDqPLw">
+    <refinedDescription>Instalar ferramentas necessárias para o teste automatizado</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vAaE-ozQJc8qWaTOYiKLiA" name="ambiente_preparado_para_o_desenvolvimento,_wcQzQP9EEeiNf8InBZM3SA" guid="-vAaE-ozQJc8qWaTOYiKLiA">
+    <refinedDescription>Ambiente de desenvolvimento de software preparado para receber os testes</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aNvSDOQAOx8CD62OkN6szA" name="identificacao_de_funcionalidade,_lS8gAP9FEeiNf8InBZM3SA" guid="-aNvSDOQAOx8CD62OkN6szA">
+    <refinedDescription>Identificar o tipo e o contexto da feature, esse que será a funcionalidade a ser testada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2Q1wUJUFfsB3hXUqRubeXw" name="feature_de_teste_completa,_lTCmov9FEeiNf8InBZM3SA" guid="-2Q1wUJUFfsB3hXUqRubeXw">
+    <refinedDescription>Arquivo de teste completo contendo a funcionalidade a ser testada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-E3CAcfd759iyWkLmUn-h-w" name="ambiente_preparado_para_o_desenvolvimento,_lTCmpf9FEeiNf8InBZM3SA" guid="-E3CAcfd759iyWkLmUn-h-w">
+    <refinedDescription>Ambiente de desenvolvimento de software preparado para receber os testes</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dPkQnhZ0Vjzuj290K_PXyQ" name="relatorio_final_de_testes,_lTDNsf9FEeiNf8InBZM3SA" guid="-dPkQnhZ0Vjzuj290K_PXyQ">
+    <refinedDescription>Relatório Final contendo todas as funcionalidades testadas, bem como seus logs e históricos de erros (consertados ou não)</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mwB9WZPxlT3oyw6svpYErg" name="feature_de_teste_finalizada,_lTDNtP9FEeiNf8InBZM3SA" guid="-mwB9WZPxlT3oyw6svpYErg">
+    <refinedDescription>Feature testada, adaptada e revisada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Mhf2uy9eVpbEArbEILp5Ew" name="implementacao_da_funcionalidade,_oHIe4P9FEeiNf8InBZM3SA" guid="-Mhf2uy9eVpbEArbEILp5Ew">
+    <refinedDescription>Implementar/escrever a sequência de passos para a funcionalidade a ser testada na feature</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BmtQ1NhxJRpGkVyzU66R-w" name="feature_de_teste_completa,_oHPMkv9FEeiNf8InBZM3SA" guid="-BmtQ1NhxJRpGkVyzU66R-w">
+    <refinedDescription>Arquivo de teste completo contendo a funcionalidade a ser testada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zOiy6lc9pJM1Nkwy-C1utA" name="ambiente_preparado_para_o_desenvolvimento,_oHQasf9FEeiNf8InBZM3SA" guid="-zOiy6lc9pJM1Nkwy-C1utA">
+    <refinedDescription>Ambiente de desenvolvimento de software preparado para receber os testes</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dKSbE6KLGPiwi9ZP9Me2OQ" name="relatorio_final_de_testes,_oHQatP9FEeiNf8InBZM3SA" guid="-dKSbE6KLGPiwi9ZP9Me2OQ">
+    <refinedDescription>Relatório Final contendo todas as funcionalidades testadas, bem como seus logs e históricos de erros (consertados ou não)</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xoriY1O5w7QryJgHh7UUgQ" name="feature_de_teste_finalizada,_oHQat_9FEeiNf8InBZM3SA" guid="-xoriY1O5w7QryJgHh7UUgQ">
+    <refinedDescription>Feature testada, adaptada e revisada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qigNviyGnqn9aSJ9UNbXEQ" name="implementao_de_cenarios,_od7OQP9FEeiNf8InBZM3SA" guid="-qigNviyGnqn9aSJ9UNbXEQ">
+    <refinedDescription>Implementar/escrever a sequência de passos para cada cenário presente na feature a ser testada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_CunL5Ad3KAZ2A6xUK_pew" name="utilizar_ferramenta_automatizada,_qZmQwP9FEeiNf8InBZM3SA" guid="-_CunL5Ad3KAZ2A6xUK_pew">
+    <refinedDescription>Utilizar a ferramenta automatizada instalada e preparada na primeira fase para testas as features</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8VeZHvQucdvIYkg9q1OyTg" name="feature_de_teste_completa,_qZmQw_9FEeiNf8InBZM3SA" guid="-8VeZHvQucdvIYkg9q1OyTg">
+    <refinedDescription>Arquivo de teste completo contendo a funcionalidade a ser testada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IIOdlaWzBiDXZmgy9Z36Ag" name="ambiente_preparado_para_o_desenvolvimento,_qZne4v9FEeiNf8InBZM3SA" guid="-IIOdlaWzBiDXZmgy9Z36Ag">
+    <refinedDescription>Ambiente de desenvolvimento de software preparado para receber os testes</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SsDygEsdjiZjBA27bsmYyg" name="relatorio_final_de_testes,_qZne5f9FEeiNf8InBZM3SA" guid="-SsDygEsdjiZjBA27bsmYyg">
+    <refinedDescription>Relatório Final contendo todas as funcionalidades testadas, bem como seus logs e históricos de erros (consertados ou não)</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-91UpSulka13evx8sRvOvyw" name="feature_de_teste_finalizada,_qZne6P9FEeiNf8InBZM3SA" guid="-91UpSulka13evx8sRvOvyw">
+    <refinedDescription>Feature testada, adaptada e revisada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4q3N9BKOjJyH9fk9OYl3Zg" name="identificar_erros,_qsUYcP9FEeiNf8InBZM3SA" guid="-4q3N9BKOjJyH9fk9OYl3Zg">
+    <refinedDescription>Identificar erros de forma manual ou relatados pela própria ferramenta automatizada&amp;nbsp;</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-B-qAZo00Us3zqxRh9qEtEg" name="consertar_erros,_q-efcP9FEeiNf8InBZM3SA" guid="-B-qAZo00Us3zqxRh9qEtEg">
+    <refinedDescription>Consertar erros identificados manualmente ou aqueles gerados pela ferramenta automatizada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-esJO6NEPPpwpzNQVReWGjg" name="documentar_erros,_0-4NYP9FEeiNf8InBZM3SA" guid="-esJO6NEPPpwpzNQVReWGjg">
+    <refinedDescription>Documentar erros para o relatório recebido pelo coordenador dos testes</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-oOE3wGOWc5VsEWJkFjPebg" name="feature_de_teste_finalizada,_0-8e0P9FEeiNf8InBZM3SA" guid="-oOE3wGOWc5VsEWJkFjPebg">
+    <refinedDescription>Feature testada, adaptada e revisada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-e3j9EPGRIeGF4MXkaShung" name="relatorio_final_de_testes,_0-8e0v9FEeiNf8InBZM3SA" guid="-e3j9EPGRIeGF4MXkaShung">
+    <refinedDescription>Relatório Final contendo todas as funcionalidades testadas, bem como seus logs e históricos de erros (consertados ou não)</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-N3EZpbZbHkP9cS2xgNdWJA" name="feature_de_teste_completa,_0_TrMf9FEeiNf8InBZM3SA" guid="-N3EZpbZbHkP9cS2xgNdWJA">
+    <refinedDescription>Arquivo de teste completo contendo a funcionalidade a ser testada</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6uo-2zaCVg8pBQtavNIKZw" name="ambiente_preparado_para_o_desenvolvimento,_0_TrNP9FEeiNf8InBZM3SA" guid="-6uo-2zaCVg8pBQtavNIKZw">
+    <refinedDescription>Ambiente de desenvolvimento de software preparado para receber os testes</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-klf8XyYXrttITJpqEa_-uQ" name="revisar_relatorio_final,_1aM3cP9FEeiNf8InBZM3SA" guid="-klf8XyYXrttITJpqEa_-uQ">
+    <refinedDescription>Revisar relatório final e confirmar a eficácia e eficiência dos testes para finalizar o processo</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZLb0WI-LInYsyRmeVCFZfA" name="coordenador_dos_testes,_1aM3cf9FEeiNf8InBZM3SA" guid="-ZLb0WI-LInYsyRmeVCFZfA">
+    <refinedDescription>Coordenador de Testes</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

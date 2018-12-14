@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-6qfZwaY0hyNvAUTOY7ZpxQ" name="revisar_relatorio_final,_f9rrcPsnEei0J5mg9rEWvA" guid="-6qfZwaY0hyNvAUTOY7ZpxQ">
+  <mainDescription>Revisar relatório final e confirmar a eficácia e eficiência dos testes para finalizar o processo</mainDescription>
+  <sections xmi:id="_a89D8P9CEeiMPN1ir0IkYQ" name="Ler relatório final" guid="_a89D8P9CEeiMPN1ir0IkYQ"/>
+  <sections xmi:id="_a-O2UP9CEeiMPN1ir0IkYQ" name="Sugerir ajustes se necessário" guid="_a-O2UP9CEeiMPN1ir0IkYQ"/>
+</org.eclipse.epf.uma:TaskDescription>
