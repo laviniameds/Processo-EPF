@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-U0SwikwdOprvjsqAOk2EvQ" name="utilizar_ferramenta_automatizada,_R5hJ8PsjEei0J5mg9rEWvA" guid="-U0SwikwdOprvjsqAOk2EvQ">
-  <mainDescription>Utilizar a ferramenta automatizada instalada e preparada na primeira fase para testas as features</mainDescription>
-</org.eclipse.epf.uma:TaskDescription>

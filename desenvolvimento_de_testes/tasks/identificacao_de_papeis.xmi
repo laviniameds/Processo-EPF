@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-j75ucv91ZjiYq4L-A25L7w" name=",_-fCFAPsTEei0J5mg9rEWvA" guid="-j75ucv91ZjiYq4L-A25L7w">
-  <sections xmi:id="_NVGnwPscEei0J5mg9rEWvA" name="Identificar os papéis da feature" guid="_NVGnwPscEei0J5mg9rEWvA">
-    <sectionDescription>Identificar os papéis que fazem parte do contexto e interagem com a feature</sectionDescription>
-  </sections>
-</org.eclipse.epf.uma:TaskDescription>
