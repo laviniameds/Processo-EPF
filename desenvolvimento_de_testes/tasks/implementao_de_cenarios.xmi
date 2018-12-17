@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-D9Mg4bptmsbPDnMCEuBBHw" name="implementao_de_cenarios,_3rQ_QPsgEei0J5mg9rEWvA" guid="-D9Mg4bptmsbPDnMCEuBBHw">
+  <mainDescription>Implementar/escrever a sequência de passos para cada cenário presente na feature a ser testada</mainDescription>
+  <sections xmi:id="_tzqoEP8-EeiMPN1ir0IkYQ" name="Implementar papéis do esquema do cenário" guid="_tzqoEP8-EeiMPN1ir0IkYQ"/>
+  <sections xmi:id="_zk9RQP8-EeiMPN1ir0IkYQ" name="Implementar passos do cenário" guid="_zk9RQP8-EeiMPN1ir0IkYQ"/>
+</org.eclipse.epf.uma:TaskDescription>

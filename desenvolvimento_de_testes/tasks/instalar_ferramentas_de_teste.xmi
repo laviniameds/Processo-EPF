@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-USYYd-jyyUngGLc-uj0BMA" name=",_04WKgPsGEei0J5mg9rEWvA" guid="-USYYd-jyyUngGLc-uj0BMA">
+  <mainDescription>Instalar ferramentas necessárias para o teste automatizado</mainDescription>
+  <sections xmi:id="_OPIzoPsHEei0J5mg9rEWvA" name="Fazer download do framework" guid="_OPIzoPsHEei0J5mg9rEWvA">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_YMnwcPsHEei0J5mg9rEWvA" name="Instalar framework" guid="_YMnwcPsHEei0J5mg9rEWvA">
+    <sectionDescription>Instalar ou importar framework para o ambiente</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

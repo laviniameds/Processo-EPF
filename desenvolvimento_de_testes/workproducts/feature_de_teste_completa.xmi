@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-QEQLCnfL20FXzr94QUrfPQ" name="funcionalidade,_xoCG8PsfEei0J5mg9rEWvA" guid="-QEQLCnfL20FXzr94QUrfPQ">
+  <mainDescription>Arquivo de teste completo contendo a funcionalidade a ser testada</mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

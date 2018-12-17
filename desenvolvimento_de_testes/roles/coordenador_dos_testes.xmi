@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-scyJ-_v4p1JzIkWcnC2kfg" name="coordenador_dos_testes,_M9U1YPsmEei0J5mg9rEWvA" guid="-scyJ-_v4p1JzIkWcnC2kfg">
+  <mainDescription>Coordenador de Testes</mainDescription>
+</org.eclipse.epf.uma:RoleDescription>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-LbcLVNZuV_sWbrJJUsJ9ug" name="implementacao_da_funcionalidade,_WB0OUPseEei0J5mg9rEWvA" guid="-LbcLVNZuV_sWbrJJUsJ9ug">
+  <mainDescription>Implementar/escrever a sequência de passos para a funcionalidade a ser testada na feature</mainDescription>
+  <sections xmi:id="_ABqpkP8_EeiMPN1ir0IkYQ" name="Implementar contexto da funcionalidade" guid="_ABqpkP8_EeiMPN1ir0IkYQ"/>
+</org.eclipse.epf.uma:TaskDescription>
